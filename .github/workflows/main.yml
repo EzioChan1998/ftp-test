@@ -11,6 +11,6 @@ jobs:
     - name: FTP-Deploy-Action
       uses: sebastianpopp/ftp-action@releases/v2
       with:
-       host: ${{ secrets.FTP_ADDRESS }}
-       user: ${{ secrets.FTP_USER_NAME }}
-       password: ${{ secrets.FTP_PASSWORD }}
+       host: ftp://120.26.143.116:21
+       user: test
+       password: test123
